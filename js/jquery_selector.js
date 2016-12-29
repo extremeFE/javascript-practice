@@ -5,7 +5,6 @@
     var colors = ['pink', 'red', 'orange', 'yellow', 'gold', 'lightgreen', 'green', 'skyblue', 'blue', 'navy', 'violet', 'gray'];
 
     function getEvenDateSpan(year, month) {
-        // var buttons = $('#month_' + year + '_' + month + ' li:nth-child(odd) .date');
         var buttons = $("body div div ul li:even *[value*='" + year + "." + month + "']");
 
         return buttons;
